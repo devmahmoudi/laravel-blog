@@ -1,0 +1,28 @@
+{
+    "name": "devmahmoudi/blog",
+    "description": "A simple blog package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DevMahmoudi\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahdi Mahmoudi",
+            "email": "dev@mahdi-mahmoudi.ir"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "illuminate/support": "^13.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevMahmoudi\\Blog\\BlogServiceProvider"
+            ]
+        }
+    }
+}
